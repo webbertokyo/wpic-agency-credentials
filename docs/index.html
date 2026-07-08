@@ -6,7 +6,23 @@
 <title>WPIC Agency Credentials 2026</title>
 <meta name="description" content="WPIC Agency Credentials 2026 - Driving market growth across Asia.">
 <meta name="robots" content="noindex">
-<!-- GA4_TAG -->
+<!-- Google Analytics (GA4) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MC11H7D8H2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-MC11H7D8H2');
+  try {
+    var params = new URLSearchParams(window.location.search);
+    if (params.get('utm_source') === 'qr') {
+      gtag('event', 'qr_scan', {
+        campaign: params.get('utm_campaign') || 'agency_credentials_2026',
+        medium: params.get('utm_medium') || 'print'
+      });
+    }
+  } catch (e) {}
+</script>
 <style>
   :root{
     --green:#0f5c3f;
